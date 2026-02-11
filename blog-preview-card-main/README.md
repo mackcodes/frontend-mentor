@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor Solution URL](https://www.frontendmentor.io/solutions/blog-preview-card-wko-17mThX)
 - Live Site URL: [Hosted Page](https://frontend-mentor-puce-three.vercel.app/)
 
 ## My process
