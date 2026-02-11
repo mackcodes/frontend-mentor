@@ -19,7 +19,7 @@ I had created a card layout that include a QR code and the card is centerd in th
 ![](./screenshot.png)
 
 ### Links
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor Solution URL](https://www.frontendmentor.io/solutions/qr-code-component-D_nQyr2vSN)
 - Live Site URL: [Deployed Site](https://frontend-mentor-9oyg.vercel.app/)
 
 ## My process
