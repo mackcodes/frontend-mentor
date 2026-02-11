@@ -83,4 +83,6 @@ All projects are built using:
 
 ## 📝 License
 
-This project is open source and available for learning purposes.
+This project is licensed under the **MIT License** - see the [LICENSE.md](LICENSE.md) file for details.
+
+Copyright (c) 2026 Mayank Kumar
