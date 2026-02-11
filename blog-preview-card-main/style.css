@@ -1,0 +1,116 @@
+@font-face{
+    font-family: "Figtree";
+    src: url(./assets/fonts/Figtree-VariableFont_wght.ttf) format("truetype");
+    font-weight: 100 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Figtree";
+    src: url(./assets/fonts/Figtree-Italic-VariableFont_wght.ttf) format("truetype");
+    font-weight: 100 900;
+    font-style: italic;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: hsl(47, 88%, 63%);
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Figtree", sans-serif;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    box-sizing: border-box;
+    
+}
+.container{
+    height: 522px;
+    width: 384px;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px black;
+    box-sizing: border-box;
+    box-shadow: 8px 8px 0px 0px #000000;
+}
+
+.image img{
+    height: 200px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+}
+
+.content h1{
+    color: hsl(0, 0%, 7%);
+    font-size: 24px;
+    line-height: 150%;
+    font-weight: 800;
+}
+
+.content h1:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+.date{
+     color: hsl(0, 0%, 7%);
+    font-size: 14px;
+    max-width: 336px;
+    line-height: 150%;
+    font-weight: 500;
+}
+
+.description{
+    max-width: 336px;
+    font-size: 16px;
+    line-height: 150%;
+    color: hsl(0, 0%, 42%);
+    font-weight: 500;
+}
+
+.category{
+    background-color: hsl(47, 88%, 63%);
+    padding: 4px 12px;
+    border-radius: 4px;
+    display: inline-block;
+    width: fit-content;
+    font-weight: bold;
+    font-size: 14px;
+    color: hsl(0, 0%, 7%);
+    font-weight: 800;
+}
+.author{
+    display: flex;
+    align-items: center;
+    height: 32px;
+    gap: 12px;
+}
+
+.avatar img{
+    height: 32px;
+    width: 32px;
+}
+
+.author p{
+    font-size: 14px;
+    color: hsl(0, 0%, 7%);
+    font-weight: 800;
+    line-height: 150%;
+}
