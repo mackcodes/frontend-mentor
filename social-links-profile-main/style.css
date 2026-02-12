@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+@font-face {
+    font-family: "Inter";
+    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf) format("truetype");
+    font-weight: 100 900;
+    font-style: normal;
+}
+:root{
+    --grey700: hsl(0, 0%, 20%);
+    --grey800: hsl(0, 0%, 12%);
+    --grey900: hsl(0, 0%, 8%);
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--grey900);
+}
+.card{
+    background-color: var(--grey800);
+}
+.image img{
+    border-radius: 50%;
+}
+.details h1{
+    color: var(--white);
+}
+.details p{
+    color: var(--green);
+}
+.about p{
+    color: var(--grey700);
+}
+.links{
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
