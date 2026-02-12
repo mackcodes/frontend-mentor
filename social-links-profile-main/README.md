@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Hosted Link Live](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor Solution Link](https://www.frontendmentor.io/solutions/social-links-xXayJFaCpm)
+- Live Site URL: [Hosted Link Live](https://frontend-mentor-z3ln.vercel.app/)
 
 ## My process
 
