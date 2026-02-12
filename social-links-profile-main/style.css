@@ -24,13 +24,13 @@ body{
     font-family: "Inter";
 }
 .card{
-    padding: 30px;
+    padding: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 24px;
     background-color: var(--grey800);
-    border-radius: 10px;
+    border-radius: 12px;
 }
 .image{
     display: flex;
@@ -44,17 +44,22 @@ body{
 .image img{
     border-radius: 50%;
     width: 50%;
+    
 }
 .details h1{
     color: var(--white);
     font-size: 24px;
+    font-weight: 700;
 }
 .details p{
     color: var(--green);
     font-size: 14px;
+    font-weight: 600;
 }
 .about p{
     color: var(--grey700);
+    font-size: 14px;
+    font-weight: 400;
 }
 .links{
     color: var(--white);
@@ -63,7 +68,7 @@ body{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 16px;
 }
 
 .link-style{
@@ -71,10 +76,11 @@ body{
     text-decoration: none;
     color: var(--white);
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 8px;
     width: 100%;
     text-align: center;
-}
+    font-weight: 600;}
+    
 .link-style:hover{
     background-color: var(--green);
     color: var(--grey900);
